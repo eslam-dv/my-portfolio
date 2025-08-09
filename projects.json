@@ -1,0 +1,26 @@
+[
+  {
+    "title": "project 1",
+    "image": "https://placehold.co/400x250",
+    "tech": ["tailwindcss", "react"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis quia mollitia inventore, quae dicta.",
+    "github": "#",
+    "preview": "#"
+  },
+  {
+    "title": "project 2",
+    "image": "https://placehold.co/400x250",
+    "tech": ["bootstrap", "vue", "nodejs"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis quia mollitia inventore, quae dicta.",
+    "github": "#",
+    "preview": "#"
+  },
+  {
+    "title": "project 3",
+    "image": "https://placehold.co/400x250",
+    "tech": ["html", "css"],
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque blanditiis quia mollitia inventore, quae dicta.",
+    "github": "#",
+    "preview": "#"
+  }
+]
