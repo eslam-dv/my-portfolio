@@ -39,10 +39,11 @@ const projectEl = ({ image, title, tech, description, preview, github }) =>
 fetch("projects.json")
   .then((response) => {
     if (!response.ok) {
-      return;
+      throw new Error("Network response was not ok");
     }
     return response.json();
   })
   .then((data) => {
     data.map((project) => (projectsContent.innerHTML += projectEl(project)));
-  });
+  })
+  .catch((error) => console.error("Fetch error: ", error));
