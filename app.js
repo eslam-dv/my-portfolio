@@ -36,7 +36,7 @@ const projectEl = ({ image, title, tech, description, preview, github }) =>
   </div>
   `;
 
-fetch("../projects.json")
+fetch("projects.json")
   .then((response) => {
     if (!response.ok) {
       return;
